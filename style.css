@@ -1,0 +1,754 @@
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+@font-face {
+  font-family: 'Vogue';
+  src: url('fonts/Vogue.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+background-color: black;
+margin: 0;
+
+}
+
+.bg {
+  background: url(images/hallway-building.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+
+  
+}
+.saying {
+padding:80px 300px;
+width: 500px
+
+}
+
+.saying-top h2{
+    color: white;
+    line-height: 20px;
+    padding: 0 30px;
+    text-align: start;
+
+}
+
+.saying-bottom{
+color: white;
+line-height: 30px;
+text-align: start;
+
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Push content to left and right */
+  align-items: center; /* Align vertically */
+  padding: 0 50px;
+  margin-top: -30px;
+  margin-right: 90px;
+  gap:30px;
+  font-size: 2rem;
+  word-spacing: 50px;
+  color: white;
+}
+
+.topbar {
+  font-size: 1rem;
+  
+}
+
+.topbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  word-spacing: 500px;
+}
+
+.page2 {
+color: rgb(255, 145, 0);
+background-color: rgb(56, 57, 57);
+height: 400vh;
+
+
+}
+
+.about-us {
+    text-align: start;
+    position: absolute;
+    padding: 0 170px;
+    margin-top: 50px;
+    
+}
+
+.top-text h2{
+    font-size: 1.5rem;
+    line-height: 0rem;
+    line-height: 4rem;    
+    margin-bottom: -30px;    
+    color: goldenrod;
+}
+
+.bottom-text {
+ position: relative;
+ padding-right:700px; /* Make room for the paragraph */
+
+}
+
+.bottom-text h2{
+  font-size:2rem;
+  line-height: 3rem;
+  text-align: start;
+  width: auto;
+  white-space: nowrap;
+  color: white;
+  
+
+}
+
+.right-text{
+  position: absolute;
+  right: 0;
+  top: -12px;
+  width: 600px;
+  color: white;
+  font-size: 1.0rem;
+  line-height: 1.6rem;
+  text-align: justify;
+
+}
+
+.services-frame {
+    text-align: start;
+    position: absolute;
+    padding: 0 120px;
+    margin-top: 400px;
+}
+
+.services-title h2{
+font-size:2.0rem;
+text-align: start;
+color: goldenrod;
+margin-bottom: -1px;
+
+}
+
+.services-info {
+font-size: 1.0rem;
+line-height: 30px;
+text-align: start;
+width: 600px;
+color: white;
+
+}
+.view-btn{
+display: inline-block;
+text-align: center;
+padding: 10px 20px;  
+color: black;
+background-color: goldenrod;
+text-decoration: none;  
+margin-top: 200px;
+
+}
+
+
+
+.services-row {
+  display: flex;
+  flex-wrap: nowrap;              
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 100px;                      
+  padding: -20px 200px; 
+  margin-bottom: -170px;
+  
+}
+
+
+.services-info {
+  flex: 1;
+}
+
+
+
+
+.image-container {
+  flex-shrink: 0;
+
+  
+  
+ 
+}
+
+
+.service-image { 
+  max-width:450px;
+  margin-left: -100px;
+  margin-bottom: -150px;
+  
+
+ 
+}
+.image h2 {
+ color: goldenrod;
+ font-size: 1.5rem;
+ margin-left: -100px;
+ padding-top:130px;
+
+}
+
+.first-bot-text p{
+ margin-left: -100px;
+ font-weight: bold;
+ color: white;
+
+}
+
+.first-bot-text-paragraph p {
+  width: auto;
+  font-size: 1.0rem;
+  color: white;
+  margin-left:-100px;
+
+  
+}
+
+.view-btn-container {
+display: inline-block;
+position: absolute;
+padding: 0 0px;
+bottom: 1990px;
+}
+
+
+
+.interior-info-container{
+padding-bottom: 70px;
+
+
+}
+
+.interior-image {
+ width: 450px;
+ margin-right: 300px;
+ margin-top: -80px;
+
+
+}
+
+.interior-title h2 {
+font-size: 1.1rem;
+color: white;
+font-weight: bold;
+
+}
+
+.interior-info h2{
+font-size: 1.5rem;
+color: goldenrod;
+margin-top: -3px;
+
+}
+
+.interior-info-bot {
+color: white;
+font-size: 1.0rem;
+
+}
+
+
+.outdoor-image{
+  position: absolute;
+  top: 560px;
+  max-width: 450px;
+  padding-left: 600px;
+
+
+  
+}
+
+.outdoor-text-container{
+ position: absolute;
+ padding: 70px 600px;
+ width: 1000px;
+
+
+}
+.outdoor-number{
+color: goldenrod;
+font-size: 1.0rem;
+
+}
+
+.outdoor-title {
+width: 500px;
+color: white;
+font-weight: bold;
+font-size: 0.7rem;
+
+}
+
+.outdoor-info {
+font-size: 1.0rem;
+color: white;
+position: absolute;
+padding-bottom: 30px;
+
+
+}
+
+
+.reconstruction-image {
+  width: 470px;
+  margin-bottom: -20px;
+
+
+
+}
+
+.reconstruction-number{
+color: goldenrod;
+
+
+}
+
+.reconstruction-title{
+color: white;
+font-weight: bold;
+font-size: 0.7rem;
+
+
+}
+
+.reconstruction-info{
+color: white;
+font-size: 1.0rem;
+
+
+
+
+}
+
+.implementation-image{
+  position: absolute;
+  top: 1080px;
+  
+  max-width: 450px;
+  padding-left: 600px;
+}
+
+
+.implementation-text-container{
+ position: absolute;
+ padding-left: 600px;
+ padding-top: 150px;
+
+
+}
+
+.implementation-number{
+color:goldenrod;
+
+
+}
+
+.implementation-title{
+color: white;
+font-weight: bold;
+font-size: 0.7rem;
+
+}
+
+.implementation-info {
+color: white;
+
+}
+
+.photography-image{
+position: absolute;
+width: 450px;
+top: 1350px;
+
+  
+}
+
+
+.photography-text-container{
+ padding: 390px 0px;
+ width: 500px;
+
+
+}
+
+.photography-number{
+color: goldenrod;
+
+
+
+}
+
+.photography-title{
+color: white;
+font-size: 0.7rem;
+font-weight: bold;
+
+
+}
+
+.photography-info{
+color: white;
+
+
+}
+
+.divider {
+background-color: black;
+background-image: url(images/greyscale-shot-parametric-architecture-interior.jpg);
+height: 50vh;
+width: 1280px;
+justify-content: center;
+position: absolute;
+top: 2850px;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;       
+background-position: center;
+
+
+
+}
+
+.divider-image {
+width: 200px;
+height: 100vh;
+
+
+
+
+}
+
+.Page3 {
+display: flex;
+width: 1280px;
+height: 2030px;
+background-color: rgb(54, 54, 54);
+justify-content:center ;
+text-align: center;
+
+
+}
+
+.project-title {
+position: absolute;
+font-family: 'Vogue', serif;
+color: goldenrod;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding-top: 80px;
+font-size: 1.4rem;
+font-weight:lighter;
+
+
+
+
+}
+
+.project-image-container {
+display: flex;
+position: absolute;
+height: 100vh;
+
+}
+
+.outdoor1-image {
+  position: absolute;
+  height: 400px;
+  width: 650px;
+  right: 490px;
+  top: 3350px;
+ 
+
+
+}
+
+.bedroom-image {
+  position: absolute;
+  height: 400px;
+  width: 700px;
+  right: 130px;
+  top: 3450px;
+}
+
+.view-btn-container-projects {
+  display: inline-block;
+  position: absolute;
+  top:615%;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+.view-btn-projects {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: goldenrod;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.Highlighted-project {
+ display: flex;
+ position: absolute;
+ width: 500px;
+ padding: 900px 100px;
+ margin-right: 500px;
+ 
+}
+
+.highlighted-project-container {
+
+
+}
+
+.highlighted-project-text {
+  text-align: start;
+  color: goldenrod;
+  font-weight: bold;
+
+
+
+}
+
+.highlighted-project-text-info {
+ text-align: start;
+ font-size: 1.8rem;
+ color: white;
+
+
+}
+
+.highlighted-additional-text-info{
+  text-align: start;
+  font-size: 1.1rem;
+  width: 500px;
+  color: white;
+  line-height: 20px;
+}
+
+
+.highlighted-image-container{
+  display: flex;
+  width: 1000px;
+  position: absolute;
+
+}
+
+.highlighted-image {
+  width: 480px;
+  height: 320px;
+  position: absolute;
+  padding-left: 520px;
+
+}
+
+
+.blog-container {
+ display: flex;
+ position: absolute;
+ width: 700px;
+ height: 500px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding-top: 1140px;
+
+}
+
+.blog-title {
+ color: goldenrod;
+ font-size: 1.4rem;
+}
+
+.blog-info{
+color: white;
+font-size: 1.1rem;
+
+}
+
+.blog-image-container {
+  display: flex;       
+  gap: 50px;          
+  padding-top: 1500px;  
+  justify-content: center;
+ 
+
+}
+
+
+.blog1-image {
+ width: 350px;
+ height: 250px;
+
+}
+
+.blog2-image {
+ width: 350px;
+ height: 250px;
+
+
+}
+
+.blog3-image {
+ width: 350px;
+ height: 250px;
+
+
+}
+
+
+.blog1-text-container {
+  display: inline-block;
+  text-align: start;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  padding-top: 1760px;
+  padding-right: 650px;
+
+}
+
+.blog1-header-text {
+ color: goldenrod;
+ font-size: 0.7rem;
+
+}
+
+.blog1-title-text {
+ color: white;
+ font-weight: bold;
+ font-size: 0.7rem;
+
+}
+
+.blog1-info-text {
+  color: white;
+
+}
+
+
+.blog2-text-container {
+  display: inline-block;
+  text-align: start;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  padding-top: 1760px;
+  padding-left: 150px;
+
+}
+
+.blog2-header-text {
+ color: goldenrod;
+ font-size: 0.7rem;
+
+}
+
+.blog2-title-text {
+ color: white;
+ font-weight: bold;
+ font-size: 0.7rem;
+
+}
+
+.blog2-info-text {
+  color: white;
+
+}
+
+
+.blog3-text-container {
+  display: inline-block;
+  text-align: start;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  padding-top: 1760px;
+  padding-left: 960px;
+
+
+}
+
+.blog3-header-text {
+ color: goldenrod;
+ font-size: 0.7rem;
+
+}
+
+.blog3-title-text {
+ color: white;
+ font-weight: bold;
+ font-size: 0.7rem;
+
+}
+
+.blog3-info-text {
+  color: white;
+
+}
+
+.footer-page {
+
+
+}
+
+.footer-container {
+width: 1280px;
+height: 250px;
+background-color: rgb(78, 77, 77);
+
+
+}
+
+
+.footer-title {
+  display: flex;
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: white;
+
+
+
+
+
+}
+
+
+.footer-info {
+  display: flex;
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 100px;
+  color: white;
+}
+
+
+
+
